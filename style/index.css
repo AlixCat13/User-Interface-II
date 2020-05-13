@@ -83,6 +83,14 @@ header {
     font-size: 30px;
     font-family: Bradley Hand ITC;
     font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    font-family: Bradley Hand ITC;
+    font-weight: bold;
+    margin-top: 10px;
   }
   
   button {
