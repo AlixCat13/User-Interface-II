@@ -80,6 +80,8 @@ header {
   p {
     font-family: arial;
     font-size: 20px;
+    text-align: center;
+    margin: 20px;
   }
   
   .footer {
