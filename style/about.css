@@ -134,6 +134,7 @@ header {
   
   .footer .linkedin {
     font-size: 2.4rem;
+    margin-top: 20px;
   }
   
   .footer .linkedin :hover {
@@ -142,6 +143,7 @@ header {
   
   .footer .instagram {
     font-size: 2.4rem;
+    margin-top: 20px;
   }
   
   .footer .instagram :hover{

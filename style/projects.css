@@ -97,6 +97,7 @@ p {
 
 .github, .codepen {
   text-align: center;
+  margin-top: 20px;
 }
 
 .footer {
@@ -109,13 +110,14 @@ p {
 }
 
 .footer p {
-  font-size: 2.4rem;
+  font-size: 3.4rem;
   font-family: Bradley Hand ITC;
   font-weight: bold;
 }
 
 .footer .linkedin {
   font-size: 2.4rem;
+  margin-top: 20px;
 }
 
 .footer .linkedin :hover {
@@ -124,6 +126,7 @@ p {
 
 .footer .instagram {
   font-size: 2.4rem;
+  margin-top: 20px;
 }
 
 .footer .instagram :hover{
@@ -136,13 +139,8 @@ p {
   background: turquoise;
   border: solid purple;
   border-radius: 30px;
-  font-size: 2.4rem;
+  font-size: 20px;
   font-family: comic sans ms;
-}
-
-.footer button :hover {
-  border: 5px dotted yellow;
-  border-radius: 10px;
 }
 
 @media(max-width: 800px){
