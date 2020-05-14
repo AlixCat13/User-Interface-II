@@ -81,6 +81,11 @@ header {
     margin-bottom: 20px;
     background: turquoise;  
   }
+
+  header nav :hover {
+    border: 5px dotted yellow;
+    border-radius: 10px;
+  }
   
   p {
     font-family: arial;

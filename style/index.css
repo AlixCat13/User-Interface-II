@@ -83,6 +83,11 @@ header nav a {
   background: turquoise;  
 }
 
+header nav :hover {
+  border: 5px dotted yellow;
+  border-radius: 10px;
+}
+
 .Intro {
   text-align: right; 
   margin: 20px;
@@ -121,12 +126,15 @@ button :hover {
 .profile {
   display: flex;
   flex-direction: row;
-  margin: 10px;
-  height: 550px;
-  width: 608px;
+  text-align: right;
+}
+
+.profile img {
+  height: 400px;
+  width: 400px;
+  margin: 20px;
   border: 15px solid turquoise;
-  border-radius: 10px;
-  
+  border-radius: 10px; 
 }
 
 p {
@@ -209,7 +217,7 @@ p {
   background: turquoise;
   border: solid purple;
   border-radius: 30px;
-  font-size: 2.4rem;
+  font-size: 20px;
   font-family: comic sans ms;
 }
 
@@ -220,6 +228,10 @@ p {
 }
 
 @media(max-width: 500px){
+  .home {
+    font-size: 1.4rem;
+  }
+  
   nav {
     flex-direction: column;
     display: none; 
@@ -234,14 +246,15 @@ p {
     border: none;
   }
   
-  img {
+  .profile img {
     width: 50%;
     height: 50%;
-  }  
+    flex-direction: column;
+  }
+  
   
   .Project1, .Projects2, .Projects3, .Projects4 {
     flex-direction: column;
+    justify-content: space-evenly;
   }
- }
-
- 
+}
