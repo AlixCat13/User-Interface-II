@@ -48,6 +48,10 @@ table {
 }
 /* Add CSS styling here */
 
+html {
+  font-size: 62.5%;
+}
+
 header {
     margin: 10px auto;
     margin-bottom: 30px;
