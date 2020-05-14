@@ -62,7 +62,7 @@ header {
   }
   
   h1 {
-    font-size: 45px;
+    font-size: 5.5rem;
     font-family: Bradley Hand ITC;
     font-weight: bold;
     text-align: center;
@@ -71,16 +71,21 @@ header {
   
   header nav a {
     margin: 0 10px;
+    margin-bottom: 20px;
     border: 2px solid purple;
     padding: 10px;
     display: inline-block;
     border-radius: 30px;
     color: black;
     font-family: comic sans ms;
-    text-decoration: none;
-    margin-bottom: 20px;
+    font-size: 2.4rem;
+    text-decoration: none;  
     background: turquoise;  
   }
+
+.container {
+  display: flex;
+}
   
   .image img {
     border: 5px dashed magenta;
@@ -89,6 +94,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     margin: 20px;
+    margin-top: .5%;
     height: 450px;
     width: 350px;
     flex-wrap: wrap;
@@ -97,10 +103,12 @@ header {
 }
 
   
-  p { 
-   font-size: 20px;
+  .container p { 
+   font-size: 2rem;
    font-family: arial;
-   text-align: center;
+   text-align: justify;
+   margin: 0 auto;
+   margin-right: 3%;
   }
     
   .footer {
@@ -113,13 +121,13 @@ header {
   }
   
   .footer p {
-    font-size: 30px;
+    font-size: 3.4rem;
     font-family: Bradley Hand ITC;
     font-weight: bold;
   }
   
   .footer .linkedin {
-    font-size: 20px;
+    font-size: 2.4rem;
   }
   
   .footer .linkedin :hover {
@@ -127,7 +135,7 @@ header {
   }
   
   .footer .instagram {
-    font-size: 20px;
+    font-size: 2.4rem;
   }
   
   .footer .instagram :hover{
@@ -140,6 +148,29 @@ header {
     background: turquoise;
     border: solid purple;
     border-radius: 30px;
-    font-size: 20px;
+    font-size: 2.4rem;
     font-family: comic sans ms;
   }
+
+@media(max-width: 800px){
+  .home {
+    flex-direction: column;
+  }  
+}
+
+@media(max-width: 500px){
+  .home {
+    font-size: 1.4rem;
+  }
+  
+  nav {
+    flex-direction: column;
+    display: none; 
+  }
+  
+  .container {
+    flex-direction: column;
+  }
+}
+  
+ 
