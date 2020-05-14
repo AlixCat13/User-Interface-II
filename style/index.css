@@ -133,7 +133,7 @@ p {
 .Project1 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 2% 0;
   margin: 20px;
   flex-wrap: wrap; 
@@ -142,7 +142,7 @@ p {
 .Projects2 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 2% 0;
   margin: 20px;
   flex-wrap: wrap; 
@@ -151,7 +151,7 @@ p {
 .Projects3 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 2% 0;
   margin: 20px;
   flex-wrap: wrap; 
@@ -160,7 +160,7 @@ p {
 .Projects4 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 2% 0;
   margin: 20px;
   flex-wrap: wrap;  
