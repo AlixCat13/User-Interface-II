@@ -53,9 +53,9 @@ html {
 }
 
 header {
-  margin: 20px auto;
+  margin: 10px auto;
   margin-bottom: 30px;
-  padding: 20px;
+  padding: 10px;
   background: pink;
   border-bottom: 5px dotted purple;
   text-align: center;  
@@ -72,7 +72,6 @@ h1 {
 
 header nav a {
   margin: 0 10px;
-  margin-bottom: 20px;
   border: 2px solid purple;
   padding: 10px;
   display: inline-block;
@@ -80,7 +79,8 @@ header nav a {
   color: black;
   font-family: comic sans ms;
   font-size: 2.4rem;
-  text-decoration: none;  
+  text-decoration: none;
+  margin-bottom: 20px;
   background: turquoise;  
 }
 
@@ -89,97 +89,16 @@ header nav :hover {
   border-radius: 10px;
 }
 
-.Intro {
-  text-align: right; 
-  margin: 20px;
-}
-
-
-h2 {
-  font-size: 4.4rem;
-  font-family: Bradley Hand ITC;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-h3 {
-  font-size: 2.4rem;
-  font-family: Bradley Hand ITC;
-  font-weight: bold;
-  margin-top: 10px;
-}
-
-button {
-  padding: 10px;
-  margin: 20px;
-  background: turquoise;
-  border: solid purple;
-  border-radius: 30px;
-  font-size: 2.4rem;
-  font-family: comic sans ms; 
-}
-
-button :hover {
-  border: 5px dotted yellow;
-  border-radius: 10px;
-}
-
-.profile {
-  display: flex;
-  flex-direction: row;
-  text-align: right;
-}
-
-.profile img {
-  height: 400px;
-  width: 400px;
-  margin: 20px;
-  border: 15px solid turquoise;
-  border-radius: 10px; 
-}
-
 p {
   font-family: arial;
-  font-size: 2rem;
-  margin: 20px;
+  font-size: 2.4rem;
+  text-align: center;
 }
 
-.Project1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 2% 0;
-  margin: 20px;
-  flex-wrap: wrap; 
+.github, .codepen {
+  text-align: center;
+  margin-top: 20px;
 }
-
-.Projects2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 2% 0;
-  margin: 20px;
-  flex-wrap: wrap; 
-}
-
-.Projects3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 2% 0;
-  margin: 20px;
-  flex-wrap: wrap; 
-}
-
-.Projects4 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 2% 0;
-  margin: 20px;
-  flex-wrap: wrap;  
-}
-
 
 .footer {
   padding: 10px;
@@ -207,6 +126,7 @@ p {
 
 .footer .instagram {
   font-size: 2.4rem;
+  margin-top: 20px;
 }
 
 .footer .instagram :hover{
@@ -237,26 +157,5 @@ p {
   nav {
     flex-direction: column;
     display: none; 
-  }
-  
-  .profile {
-    width: 75%;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    border: none;
-  }
-  
-  .profile img {
-    width: 50%;
-    height: 50%;
-    flex-direction: column;
-  }
-  
-  
-  .Project1, .Projects2, .Projects3, .Projects4 {
-    flex-direction: column;
-    justify-content: space-evenly;
   }
 }

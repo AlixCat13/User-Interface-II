@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Add CSS styling here */
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  margin: 10px auto;
+  margin-bottom: 30px;
+  padding: 10px;
+  background: pink;
+  border-bottom: 5px dotted purple;
+  text-align: center;  
+}
+
+h1 {
+  font-size: 5.5rem;
+  font-family: Bradley Hand ITC;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  background: pink;
+}
+
+header nav a {
+  margin: 0 10px;
+  border: 2px solid purple;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 30px;
+  color: black;
+  font-family: comic sans ms;
+  font-size: 2.4rem;
+  text-decoration: none;
+  margin-bottom: 20px;
+  background: turquoise;  
+}
+
+header nav :hover {
+  border: 5px dotted yellow;
+  border-radius: 10px;
+}
+
+p {
+  font-family: arial;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.linkedin {
+  font-family: arial;
+  font-size: 2.4rem;
+  margin: 10px;
+  padding: 20px;
+  border: 5px solid MediumTurquoise;
+}
+
+.linkedin :hover {
+  font-style: italic;
+  color: crimson;
+}
+
+.instagram {
+  font-family: arial;
+  font-size: 2.4rem;
+  margin: 10px;
+  padding: 20px;
+  border: 5px dotted MediumTurquoise;
+}
+
+.instagram :hover {
+  font-style: italic;
+  color: crimson;
+}
+
+.codepen {
+  font-family: arial;
+  font-size: 2.4rem;
+  margin: 10px;
+  padding: 20px;
+  border: 5px solid MediumTurquoise;
+}
+
+.codepen :hover {
+  font-style: italic;
+  color: crimson;
+}
+
+.github {
+  font-family: arial;
+  font-size: 2.4rem;
+  margin: 10px;
+  padding: 20px;
+  border: 5px dotted MediumTurquoise;
+}
+
+.github :hover {
+  font-style: italic;
+  color: crimson;
+}
+
+
+.footer {
+  padding: 100px;
+  background: pink;
+  margin:0 auto;
+  margin-top: 30px;
+  text-align: center;
+  border-top: 5px dotted purple;
+}
+
+@media(max-width: 800px){
+  .home {
+    flex-direction: column;
+  }  
+}
+
+@media(max-width: 500px){
+  .home {
+    font-size: 1.4rem;
+  }
+  
+  nav {
+    flex-direction: column;
+    display: none; 
+  }
+}
+

@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Add CSS styling here */
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+    margin: 10px auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    background: pink;
+    border-bottom: 5px dotted purple;
+    text-align: center;  
+  }
+  
+  h1 {
+    font-size: 5.5rem;
+    font-family: Bradley Hand ITC;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+    background: pink;
+  }
+  
+  header nav a {
+    margin: 0 10px;
+    margin-bottom: 20px;
+    border: 2px solid purple;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 30px;
+    color: black;
+    font-family: comic sans ms;
+    font-size: 2.4rem;
+    text-decoration: none;  
+    background: turquoise;  
+  }
+
+  header nav :hover {
+    border: 5px dotted yellow;
+    border-radius: 10px;
+  }
+
+.container {
+  display: flex;
+}
+  
+  .image img {
+    border: 5px dashed magenta;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: .5%;
+    height: 450px;
+    width: 350px;
+    flex-wrap: wrap;
+    display: flex;
+    border-radius: 10px;
+}
+
+  
+  .container p { 
+   font-size: 2rem;
+   font-family: arial;
+   text-align: justify;
+   margin: 0 auto;
+   margin-right: 3%;
+  }
+    
+  .footer {
+    padding: 10px;
+    background: pink;
+    margin:0 auto;
+    margin-top: 30px;
+    text-align: center;
+    border-top: 5px dotted purple;
+  }
+  
+  .footer p {
+    font-size: 3.4rem;
+    font-family: Bradley Hand ITC;
+    font-weight: bold;
+  }
+  
+  .footer .linkedin {
+    font-size: 2.4rem;
+    margin-top: 20px;
+  }
+  
+  .footer .linkedin :hover {
+    color: black;
+  }
+  
+  .footer .instagram {
+    font-size: 2.4rem;
+    margin-top: 20px;
+  }
+  
+  .footer .instagram :hover{
+    color: black;
+  }
+  
+  .footer button {
+    padding: 10px;
+    margin: 5px;
+    background: turquoise;
+    border: solid purple;
+    border-radius: 30px;
+    font-size: 2.4rem;
+    font-family: comic sans ms;
+  }
+
+@media(max-width: 800px){
+  .home {
+    flex-direction: column;
+  }  
+}
+
+@media(max-width: 500px){
+  .home {
+    font-size: 1.4rem;
+  }
+  
+  nav {
+    flex-direction: column;
+    display: none; 
+  }
+  
+  .container {
+    flex-direction: column;
+  }
+}
+  
+ 
